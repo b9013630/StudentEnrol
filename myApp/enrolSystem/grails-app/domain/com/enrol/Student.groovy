@@ -9,7 +9,7 @@ class Student {
 	String studentEmail
 	String studentUsername
 	String studentPassword
-	static belongsTo = [course:Course] //stating the owner of relaionship
+	
 
     static constraints = {
 //declaring constraints
@@ -23,5 +23,5 @@ class Student {
 	//course blank:false, nullable:false
 
     }
-	
+	//static belongsTo = [course:Course] //stating the owner of relaionship	
 }
