@@ -19,4 +19,8 @@ class Lecturer {
 	bio nullable:false, blank:false, size:0..5000, widget:'textarea'
 
     }
+
+	//static hasMany = [courses:Course, students:Student, modules:Module]
+	
+
 }

@@ -17,4 +17,8 @@ class Module {
 	description nullable:false, blank:false, size:0..5000, widget:'textarea'
 
     }
+
+	//static hasMany = [students:Student]
+	//static belongsTo = [course:Course, lecturer:Lecturer]
+
 }

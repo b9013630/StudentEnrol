@@ -23,5 +23,6 @@ class Student {
 	//course blank:false, nullable:false
 
     }
-	//static belongsTo = [course:Course] //stating the owner of relaionship	
+	static belongsTo = [course:Course] //stating the owner of relaionship
+	static hasManny = [modules:Module, lecturers:Lecturer]
 }
