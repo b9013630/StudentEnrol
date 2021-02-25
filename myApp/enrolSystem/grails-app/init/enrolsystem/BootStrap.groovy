@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-	def course1=new com.enrol.Course(
+	/*def course1=new com.enrol.Course(
 	department:'Computing',
 	courseTitle:'BSc Hon Computing',
 	courseLeader:'Jane Doe',
@@ -110,7 +110,7 @@ class BootStrap {
 	moduleCode:'G79',
 	credits:'60',
 	course:'Software Engineering',
-	description:'lorm ipsum cu,pting and it an sydd y').save()
+	description:'lorm ipsum cu,pting and it an sydd y').save()*/
 	
 
     }

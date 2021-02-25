@@ -1,6 +1,11 @@
 package com.enrol
 
 class Student {
+
+	String toString(){
+		return studentName
+	}	
+
 //declaring variables
 	String studentName
 	String studentID
@@ -23,5 +28,6 @@ class Student {
 	//course blank:false, nullable:false
 
     }
-	//static belongsTo = [course:Course] //stating the owner of relaionship	
+	static belongsTo = [course:Course] //stating the owner of relaionship 1:1
+	static hasMany = [modules:Module] //1:m relationship
 }

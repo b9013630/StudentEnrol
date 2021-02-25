@@ -2,10 +2,14 @@ package com.enrol
 
 class Module {
 
+	String toString(){
+		return moduleTitle
+	}
+
 	String moduleTitle
 	String moduleCode
 	Integer credits
-	String course
+	//String course
 	String description
 
     static constraints = {
@@ -17,4 +21,8 @@ class Module {
 	description nullable:false, blank:false, size:0..5000, widget:'textarea'
 
     }
+
+	static hasMany = [course:Course, students:Student] //
+	static BelongsTo = [course:Course, students:Student, lecturer:Lecturer] //part of many to many 
+	
 }
