@@ -22,7 +22,13 @@ class Module {
 
     }
 
+<<<<<<< HEAD
 	static hasMany = [course:Course, students:Student] //
 	static BelongsTo = [course:Course, students:Student, lecturer:Lecturer] //part of many to many 
 	
+=======
+	//static hasMany = [students:Student]
+	//static belongsTo = [course:Course, lecturer:Lecturer]
+
+>>>>>>> main
 }

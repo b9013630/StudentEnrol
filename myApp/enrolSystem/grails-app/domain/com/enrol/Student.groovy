@@ -28,6 +28,11 @@ class Student {
 	//course blank:false, nullable:false
 
     }
+<<<<<<< HEAD
 	static belongsTo = [course:Course] //stating the owner of relaionship 1:1
 	static hasMany = [modules:Module] //1:m relationship
+=======
+	static belongsTo = [course:Course] //stating the owner of relaionship
+	static hasManny = [modules:Module, lecturers:Lecturer]
+>>>>>>> main
 }
