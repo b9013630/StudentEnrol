@@ -24,13 +24,8 @@ String toString(){
 
     }
 
-<<<<<<< HEAD
 	static hasMany = [modules:Module, courses:Course] //1:m relationship
 
 	static belongsTo = [courses:Course]
-=======
-	//static hasMany = [courses:Course, students:Student, modules:Module]
-	
 
->>>>>>> main
 }
