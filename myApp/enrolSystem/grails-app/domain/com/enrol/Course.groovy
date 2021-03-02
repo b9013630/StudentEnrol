@@ -31,10 +31,8 @@ class Course {
 	description blank:false, nullable:false, maxSize:5000, widget:'textarea'
 	tuitionFees blank:false, nullable:false, scale:3
     }
+	static hasMany = [students:Student, modules:Module, lecturers:Lecturer] //#4stu #6mods #8lcts
 
-
-	static hasMany = [students:Student, modules:Module, lecturers:Lecturer] //1:m relationship
-
-	static belongsTo = [courseLeader:Course] //1:1
+	static belongsTo = [courseLeader:Course] //1:1 #2
 
 }

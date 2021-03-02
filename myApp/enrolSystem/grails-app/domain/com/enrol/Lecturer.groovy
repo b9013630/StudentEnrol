@@ -24,8 +24,8 @@ String toString(){
 
     }
 
-	static hasMany = [modules:Module, courses:Course] //1:m relationship
+	static hasMany = [modules:Module, courses:Course] // #5mods #8crs
 
-	static belongsTo = [courses:Course]
+	//static belongsTo = [courses:Course]
 
 }
