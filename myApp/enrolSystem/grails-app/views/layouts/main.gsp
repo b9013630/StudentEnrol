@@ -17,7 +17,9 @@
 <body>
 <div class="row">
 	<asset:image src="studentenrol_banner.png"/>
+	<g:loginToggle />
 </div>
+
 
 <g:layoutBody/>
 

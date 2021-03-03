@@ -12,6 +12,8 @@ String toString(){
 	String lecturerEmail
 	String office
 	String bio
+	String username
+	String password
 
     static constraints = {
 
@@ -21,6 +23,8 @@ String toString(){
 	lecturerEmail nullable:false, blank:false, email:true
 	office nullable:false, blank:false
 	bio nullable:false, blank:false, size:0..5000, widget:'textarea'
+	username nulllable:false, blank:false, unique:true
+	password nullable:false, blank:false, password:true
 
     }
 
