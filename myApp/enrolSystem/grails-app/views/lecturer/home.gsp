@@ -56,6 +56,13 @@
 	</tr>
 	</div>
 	</div>
+<div class="Fourth">
+			<h3>Simple Search</h3>
+			<p> lposfiuwenfwe fgwevfjam </p>
+			<button type="button" class="btn btn-success">
+			<g:link /*controller="Lecturer"*/ action="search">Search</g:link>
+			</button>
+		</div>
 </div>
 </body>
 </html>
